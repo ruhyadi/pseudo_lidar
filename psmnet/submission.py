@@ -24,7 +24,7 @@ from models import *
 parser = argparse.ArgumentParser(description='PSMNet')
 parser.add_argument('--KITTI', default='2015',
                     help='KITTI version')
-parser.add_argument('--datapath', default='/scratch/datasets/kitti2015/testing/',
+parser.add_argument('--datapath', default='/home/ruhyadi/Journey/pseudo_lidar/KITTI/object/testing/',
                     help='select model')
 parser.add_argument('--loadmodel', default=None,
                     help='loading model')
